@@ -16,7 +16,7 @@ iex> Rafute.Client.create_cluster [
 ...> ]
 :ok
 
-## A client can send a query to any nodes because it will be redirected to the leader node  
+## You can send a query to any nodes because it will be redirected to the leader node  
 iex> Rafute.Client.write {:rafute3, :"node2@127.0.0.1"}, "a", "b"
 :ok
 iex> Rafute.Client.read :rafute1, "a"
