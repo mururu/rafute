@@ -8,7 +8,7 @@ This is not for production use.
 
 ```
 ## Create cluster including local and remote nodes 
-## You can omit remote node names 
+## You can omit locale node names 
 iex> Rafute.Client.create_cluster [
 ...>   :rafute1,
 ...>   {:rafute2, :"node2@127.0.0.1"},
